@@ -6,7 +6,7 @@ function App() {
       <div className="container">
         <footer className="text-center">
           <a
-            href="https://github.com/corinamittelholzer/dictionary"
+            href="https://github.com/corinamittelholzer/dictionary-project"
             target="_blank"
             rel="noreferrer"
           >
