@@ -1,11 +1,18 @@
 import React, { useState } from "react";
+import axios from "axios";
 
 export default function Dictionary() {
   let [keywoard, setKeywoard] = useState("null");
+  let [results, setResults] = useState();
+
+  function handleResponse(response) {
+    console.log(response.data[0]);
+  }
 
   function search(event) {
     event.preventDefault();
-    alert(`searching for ${keywoard}`);
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keywoard}`;
+    axios.get(apiUrl).then(handleResponse);
   }
 
   function handleKeywoardChange(event) {
