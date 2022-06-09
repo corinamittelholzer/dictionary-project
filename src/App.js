@@ -1,9 +1,12 @@
 import "./App.css";
+import "./Dictionary.css";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
+        <Dictionary />
         <footer className="text-center">
           <a
             href="https://github.com/corinamittelholzer/dictionary-project"
