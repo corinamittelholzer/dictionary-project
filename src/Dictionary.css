@@ -1,3 +1,23 @@
 .Dictionary {
   text-align: center;
 }
+
+.question {
+  font-size: 25px;
+}
+
+.word {
+  font-weight: bold;
+  font-size: 35px;
+  padding: 10px;
+  color: rgb(245, 11, 85);
+}
+
+.partOfSpeech {
+  color: rgb(245, 11, 85);
+  opacity: 0.6;
+}
+
+.Meaning {
+  font-size: 18px;
+}

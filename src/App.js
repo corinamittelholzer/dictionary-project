@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className="container">
         <Dictionary />
-        <footer className="text-center">
+        <footer className="text-center mt-5">
           <a
             href="https://github.com/corinamittelholzer/dictionary-project"
             target="_blank"
