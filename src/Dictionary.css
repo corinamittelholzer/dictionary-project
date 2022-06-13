@@ -1,15 +1,15 @@
-.Dictionary {
-  text-align: center;
-}
-
 .question {
   font-size: 25px;
+}
+
+.Synonyms {
+  text-align: left;
 }
 
 .word {
   font-weight: bold;
   font-size: 35px;
-  padding: 10px;
+  padding: 10px 0 10px;
   color: rgb(245, 11, 85);
 }
 
@@ -19,5 +19,5 @@
 }
 
 .Meaning {
-  font-size: 18px;
+  font-size: 16px;
 }
