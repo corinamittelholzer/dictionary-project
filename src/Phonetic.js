@@ -11,6 +11,7 @@ export default function Phonetic(props) {
         target="_blank"
         rel="noreferrer"
         className="listening ms-2 phoneticAudio"
+        title="audio sample"
       >
         listen
       </a>

@@ -12,6 +12,7 @@ function App() {
             href="https://github.com/corinamittelholzer/dictionary-project"
             target="_blank"
             rel="noreferrer"
+            title="github account"
           >
             Open-source code
           </a>{" "}
