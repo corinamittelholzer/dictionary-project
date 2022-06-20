@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Dictionary />
+        <Dictionary defaultKeyword="sunset" />
         <footer className="text-center mt-5">
           <a
             href="https://github.com/corinamittelholzer/dictionary-project"
