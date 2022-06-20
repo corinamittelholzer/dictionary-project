@@ -2,6 +2,10 @@
   --primary-color: rgb(206, 25, 73);
   --secondary-color: rgb(96, 119, 96);
 }
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
 
 body {
   background: rgb(212, 216, 212);
