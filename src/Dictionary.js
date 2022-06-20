@@ -15,12 +15,11 @@ export default function Dictionary(props) {
   }
 
   function handlePexelsResonse(response) {
-    console.log(response.data.photos[0].src.landscape);
     setPhotos(response.data.photos);
   }
 
   function search() {
-    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(apiUrl).then(handleDictionaryResponse);
 
     let pexelsApiKey =
