@@ -3,3 +3,9 @@
   margin-bottom: 5px;
   margin-top: 5px;
 }
+
+@media (max-width: 440px) {
+  .Photos img {
+    width: 100%;
+  }
+}

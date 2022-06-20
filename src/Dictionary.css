@@ -9,7 +9,7 @@
 .Dictionary h1 {
   font-size: 60px;
   text-align: center;
-  padding: 30px;
+  padding: 20px 0 20px 0;
   color: #333;
 }
 
@@ -26,7 +26,16 @@
   color: #333;
 }
 .Dictionary .question {
-  font-size: 24px;
+  font-size: 25px;
   text-align: center;
   color: #333;
+}
+
+@media (max-width: 440px) {
+  .Dictionary h1 {
+    font-size: 45px;
+  }
+  .Dictionary .question {
+    font-size: 20px;
+  }
 }
