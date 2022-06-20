@@ -7,14 +7,24 @@ export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
   let [results, setResults] = useState(null);
 
-  function handleResponse(response) {
+  function handleDictionaryResponse(response) {
     setResults(response.data[0]);
+  }
+
+  function handlePexelsResonse(response) {
+    console.log(response);
   }
 
   function search(event) {
     event.preventDefault();
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-    axios.get(apiUrl).then(handleResponse);
+    axios.get(apiUrl).then(handleDictionaryResponse);
+
+    let pexelsApiKey =
+      "563492ad6f917000010000015b2c825d33524a24b164943f40f17407";
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
+    let headers = { Authorization: `Beaer ${pexelsApiKey}` };
+    axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResonse);
   }
 
   function handleKeywordChange(event) {
@@ -23,7 +33,7 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary mt-3">
-      <h1>Dictionary 🔍 </h1>
+      <h1>Dictionary </h1>
       <section>
         <div className="question">What word do you want to look up?</div>
         <form className="Searchform mt-3 mb-3" onSubmit={search}>
