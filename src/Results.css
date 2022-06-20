@@ -1,6 +1,6 @@
 .Results .word {
   font-weight: bold;
   font-size: 35px;
-  padding: 10px;
+
   color: var(--primary-color);
 }

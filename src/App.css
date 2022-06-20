@@ -19,4 +19,9 @@ h1 {
 footer {
   font-style: italic;
   font-size: 13px;
+  margin-bottom: 20px;
+}
+
+footer a {
+  color: black;
 }

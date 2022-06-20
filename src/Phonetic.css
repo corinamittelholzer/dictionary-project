@@ -1,12 +1,13 @@
 .Phonetic .phoneticText {
   font-size: 20px;
-  margin: -15px 0 15px 10px;
-  opacity: 0.7;
+  line-height: 2;
+  opacity: 0.8;
+  display: inline;
 }
-.Phonetic .listening {
+.Phonetic a {
   border: 1px solid var(--secondary-color);
   border-radius: 30px;
-  padding: 10px 20px;
+  padding: 7px 12px;
   text-decoration: none;
   font-weight: bold;
   color: var(--secondary-color);
