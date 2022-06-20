@@ -1,0 +1,14 @@
+.Meaning .partOfSpeech {
+  color: rgb(245, 11, 85);
+  opacity: 0.8;
+}
+
+.Meaning .definition {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.Meaning .example {
+  font-style: italic;
+  opacity: 0.7;
+}

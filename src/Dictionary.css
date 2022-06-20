@@ -1,31 +1,32 @@
-h1 {
+.Dictionary section {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.Dictionary h1 {
+  font-size: 70px;
+  text-align: center;
+  padding: 30px;
+  color: #333;
+}
+
+.Dictionary form {
   text-align: center;
 }
 
-form {
+.Dictionary input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 24px;
+  color: #333;
+}
+.Dictionary .question {
+  font-size: 30px;
   text-align: center;
-}
-.question {
-  font-size: 25px;
-  text-align: center;
-}
-
-.Synonyms {
-  text-align: left;
-}
-
-.word {
-  font-weight: bold;
-  font-size: 35px;
-  padding: 10px 0 10px;
-  color: rgb(245, 11, 85);
-}
-
-.partOfSpeech {
-  color: rgb(245, 11, 85);
-  opacity: 0.6;
-}
-
-.Meaning {
-  font-size: 16px;
+  color: #333;
 }
