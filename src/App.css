@@ -1,3 +1,8 @@
+:root {
+  --primary-color: rgb(206, 25, 73);
+  --secondary-color: rgb(96, 119, 96);
+}
+
 body {
   background: rgb(212, 216, 212);
 }

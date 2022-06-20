@@ -2,5 +2,5 @@
   font-weight: bold;
   font-size: 35px;
   padding: 10px;
-  color: rgb(245, 11, 85);
+  color: var(--primary-color);
 }

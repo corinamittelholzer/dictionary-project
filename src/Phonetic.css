@@ -4,17 +4,17 @@
   opacity: 0.7;
 }
 .Phonetic .listening {
-  border: 1px solid rgb(96, 119, 96);
+  border: 1px solid var(--secondary-color);
   border-radius: 30px;
   padding: 10px 20px;
   text-decoration: none;
   font-weight: bold;
-  color: rgb(96, 119, 96);
+  color: var(--secondary-color);
 
   transition: all 150ms ease-in-out;
 }
 
 .Phonetic a:hover {
-  background: rgb(96, 119, 96);
+  background: var(--secondary-color);
   color: white;
 }
